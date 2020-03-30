@@ -16,29 +16,6 @@ By the end of this, students should be able to:
 -   Compare and contrast basic language features and types from Python with basic language features and types from Javascript.
 -   Write and run simple script in Python.
 
-## Installation
-
-1.  `brew install python3`
-1.  Python doesn't ship with the most up to date version of package manager
-pip, so upgrade pip : `pip3 install --upgrade pip`
-1.  `pip3 install ipython`
-
-## Python REPL
-
-We'll be using Python's built-in REPL to practice what we learn today.
-
-Typing `python3` onto the command line will bring you into this REPL using Python version 3.7.2, similar to calling `node` to run the `node` REPL. 
-
-BUT! There's an even better way. With `ipython` we can enter python's REPL with syntax highlighting and way more features! So for this lesson we will be using `ipython`.
-
-**note:** Your Mac has Python 2 installed already. Remember to use `python3`! There are several things in this course that will break if you try to run them in Python 2, which is what will run on most of your machines if you simply type `python`
-
-To run Python scripts, simply run
-`python3 filename.py` from the command line. If you _do_ want to run Python in version 2.7.0 or the original Python version install on your machine, simply call `python` without the extra 3.
-
-_Hint: to print to the console in Python, we use `print("hello world")`_
-
-Let's practice running some code in the Ipython.
 
 ## Python REPL
 
@@ -505,6 +482,23 @@ for file in secret_files:
 - Define a Python _dictionary_ named **`where_are_my_things`** containing a few items; where  the `keys` are things you have, and the `value` is the location you keep those things.
 
 - Write a `for` loop that iterates over the items in the dictionary and prints each one as _My [thing] is kept [location]_.
+
+---
+
+## IPython
+As noted above, we can always access a **local** Python REPL just by typing `python3` into our terminal app. The standard REPL is fine but it lacks a few quality-of-life imporvements that we as developers have probably gotten used to. That's where IPython comes in!
+
+IPython is a powerful interactive Python shell (or REPL) with a long list of features. A few of my favourites are syntax highlighting, tab completion, and an integrated debugger. You can see the [full list of features here](https://ipython.readthedocs.io/en/stable/).
+
+### Installation
+1.  `brew install python3`
+2.  Python doesn't ship with the most up to date version of package manager
+pip, so upgrade pip : `pip3 install --upgrade pip`
+3.  `pip3 install ipython`
+
+### Uasge
+You can use IPython in exactly the same way we used repl.it today. In fact, feel free to use it on the lab today and if you like it, look into how you can make it your default Python shell.
+
 
 ---
 

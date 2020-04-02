@@ -313,8 +313,8 @@ secret_files.append("He's guilty.")
 We do not have built-in operators for removing or adding to the _beginning_ of a
 list! 
 
-`.remove(n)` allows us to remove an element at any index. Thus, `list.remove(0)`
-would remove the first element from a list.
+`.remove(x)` removes the first item from the list where list[i] is equal to x. Thus, `list.remove("TOP SECRET")`
+would remove the first element from a list that matches "TOP SECRET".
 
 #### Looping Through Lists
 

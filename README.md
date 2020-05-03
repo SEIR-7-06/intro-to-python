@@ -16,36 +16,22 @@ By the end of this, students should be able to:
 -   Compare and contrast basic language features and types from Python with basic language features and types from Javascript.
 -   Write and run simple script in Python.
 
-## Installation
-
-1.  `brew install python3`
-1.  Python doesn't ship with the most up to date version of package manager
-pip, so upgrade pip : `pip3 install --upgrade pip`
-1.  `pip3 install ipython`
 
 ## Python REPL
 
-We'll be using Python's built-in REPL to practice what we learn today.
+We'll be using repl.it to practice what we learn today. 
 
-Typing `python3` onto the command line will bring you into this REPL using Python version 3.7.2, similar to calling `node` to run the `node` REPL. 
+[Click here](https://repl.it/languages/python3) to open up a new Python3 REPL.
 
-BUT! There's an even better way. With `ipython` we can enter python's REPL with syntax highlighting and way more features! So for this lesson we will be using `ipython`.
+> repl.it is user-friendly but it's not ideal for longterm Python development. Thankfully, you can also run a Python REPL on your local machine by running the command `python3`. We have also included instructions for setting up a nicely featured REPL called IPython at the end of this lesson.
 
-**note:** Your Mac has Python 2 installed already. Remember to use `python3`! There are several things in this course that will break if you try to run them in Python 2, which is what will run on most of your machines if you simply type `python`
-
-To run Python scripts, simply run
-`python3 filename.py` from the command line. If you _do_ want to run Python in version 2.7.0 or the original Python version install on your machine, simply call `python` without the extra 3.
-
-_Hint: to print to the console in Python, we use `print("hello world")`_
-
-Let's practice running some code in the Ipython.
 
 &#x1F535; **Activity**
 ```
-- In your terminal, open the Python REPL by typing `ipython`
-- try some standard stuff, like adding numbers together, saving a string to a variable, and whatever else you want
+- If you haven't already, click the link above to open a new Python REPL on repl.it
+- In the black box to the right of your screen, try typing some standard programming stuff, like adding numbers together, saving a string to a variable, and whatever else you want
 - If you learn something, or something unexpected happens, share in a thread below
-- 7 min
+- 10 min
 ```  
 
 ## Core Syntax, Variables, and Operators
@@ -87,11 +73,11 @@ Now that you know some more stuff, lets excecute code from a file!
 
 &#x1F535; **Activity**
 ```
-- create a new file "my_first_python.py"
+In the file "main.py" (the white text editor on the lefthand side of the screen), do the following:
 - Add some code using what you've learned so far!
-- Run your in terminal using `python3 /path/my_first_python.py`
+- Run your code in the terminal using the "Run" button 
 - If you learn something, or something unexpected happens, share in a thread below
-- 7 min
+- 10 min
 ```  
 
 
@@ -241,7 +227,7 @@ as well as throw you into linter message hell. Try them out!
 - Add the code to solve FizzBuzz, explained below. 
 - You may have solved this in JavaScript or on a whiteboard before! 
 - If you learn something, or something unexpected happens, share in a thread below
-- 7 min
+- 10 min
 ```  
 
 _**Fizzbuzz** is a classic, easy whiteboard problem in interviews. Remarkably, many hiring managers report that a majority of their applicants cannot solve it._
@@ -499,8 +485,24 @@ for file in secret_files:
 
 ---
 
+## IPython
+As noted above, we can always access a **local** Python REPL just by typing `python3` into our terminal app. The standard REPL is fine but it lacks a few quality-of-life imporvements that we as developers have probably gotten used to. That's where IPython comes in!
+
+IPython is a powerful interactive Python shell (or REPL) with a long list of features. A few of my favourites are syntax highlighting, tab completion, and an integrated debugger. You can see the [full list of features here](https://ipython.readthedocs.io/en/stable/).
+
+### Installation
+1.  `brew install python3`
+2.  Python doesn't ship with the most up to date version of package manager
+pip, so upgrade pip : `pip3 install --upgrade pip`
+3.  `pip3 install ipython`
+
+### Uasge
+You can use IPython in exactly the same way we used repl.it today. In fact, feel free to use it on the lab today and if you like it, look into how you can make it your default Python shell.
+
+
+---
+
 ## Additional Resources
 
 -   [Python's Documentation](https://docs.python.org/3/)
--   To get/ enable Atom Linter: `pip install pylint` `apm install linter-pylint`
 

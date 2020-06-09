@@ -43,6 +43,19 @@ Python has a couple attributes that make it unique:
 * Community -- there are **so** many Python libraries 
 * Easter Eggs -- Python is named after Monty Python, and there are a bunch of easter eggs built into the core language
 
+<details><summary>Some easter eggs</summary>
+<p>
+
+```python
+import this
+```
+```python
+import antigravirty
+```
+
+</p>
+</details>
+
 ### The Zen of Python
 Tim Peters, one of the original Python users wrote the following poem on the philosophy behind the Python language.
 ```

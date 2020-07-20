@@ -34,6 +34,52 @@ We'll be using repl.it to practice what we learn today.
 - 10 min
 ```  
 
+### What is Python?
+Python is a high-level, general purpose programming language created by Guido van Rossum in 1991. It is the fifth most used programming language behind Java, Javascript, and C#. Python can be used for data science, devops, or general purpose programming. In this class, we will be using it as a server-side "back-end" programming language.
+
+Python has a couple attributes that make it unique:
+* Meaningful Whitespace -- indentation signifies code blocks
+* Duck typing -- the types of variables are inferred rather than explicitly declared
+* Community -- there are **so** many Python libraries 
+* Easter Eggs -- Python is named after Monty Python, and there are a bunch of easter eggs built into the core language
+
+<details><summary>Some easter eggs</summary>
+<p>
+
+```python
+import this
+```
+```python
+import antigravirty
+```
+
+</p>
+</details>
+
+### The Zen of Python
+Tim Peters, one of the original Python users wrote the following poem on the philosophy behind the Python language.
+```
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+```
+
 ## Core Syntax, Variables, and Operators
 
 ### Syntax

@@ -50,7 +50,7 @@ Python has a couple attributes that make it unique:
 import this
 ```
 ```python
-import antigravirty
+import antigravity
 ```
 
 </p>

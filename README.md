@@ -35,7 +35,7 @@ We'll be using repl.it to practice what we learn today.
 ```  
 
 ### What is Python?
-Python is a high-level, general purpose programming language created by Guido van Rossum in 1991. It is the fifth most used programming language behind Java, Javascript, and C#. Python can be used for data science, devops, or general purpose programming. In this class, we will be using it as a server-side "back-end" programming language.
+Python is a high-level, general purpose programming language created by Guido van Rossum in 1991. It is the third most used programming language behind C and Java. Python can be used for data science, devops, or general purpose programming. In this class, we will be using it as a server-side "back-end" programming language.
 
 Python has a couple attributes that make it unique:
 * Meaningful Whitespace -- indentation signifies code blocks

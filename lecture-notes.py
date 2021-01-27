@@ -126,7 +126,7 @@ greeting = get_greeting('Michael')
 # print(greeting)
 
 """
-You write a function that will count from 1-99 printing 1 of four things for each number. If the number is divisible by 3, print "fizz". If the number is divisible by 5, print "buzz". If the number is divisible by 3 and 5, print "fizzbuzz". And otherwise, just print the number.
+Write a function that will count from 1-99 printing 1 of four things for each number. If the number is divisible by 3, print "fizz". If the number is divisible by 5, print "buzz". If the number is divisible by 3 and 5, print "fizzbuzz". And otherwise, just print the number.
 """
 
 def fizzbuzz(last_number):
@@ -140,4 +140,52 @@ def fizzbuzz(last_number):
     else:
       print(i)
 
-fizzbuzz(10)
+# fizzbuzz(10)
+
+####################################################################
+# LIST (SIMILAR TO AN ARRAY IN JAVASCRIPT)
+secret_files = ['a top secret', 'another top secret']
+# JavaScript - secretFile.length
+files_length = len(secret_files)
+
+# print(files_length)
+
+# for file in secret_files:
+#   print(file)
+
+capulets = ['Greg', 'Maria', 'Clyde', 'Suzy']
+montagues = ['Sally', 'Frank', 'Ana', 'Tim']
+
+happy_family = capulets + montagues
+
+# print(happy_family)
+
+happy_family.append('Hubert')
+happy_family.extend(['Jaime', 'Kelly'])
+
+# print(happy_family)
+
+# for family_member in happy_family:
+#   print(family_member)
+
+###########################################
+# DICTIONARIES
+student = {
+  'student_name': 'Sally',
+  'course': 'SEI',
+  'current_week': 6,
+  'date_of_birth': 'May 6 1986'
+}
+
+name = student['student_name']
+
+student['backpack_color'] = 'blue'
+
+# date_of_birth = student['date_of_birth']
+date_of_birth = student.get('date_of_birth')
+
+# print(date_of_birth)
+
+fav_color = input('What is your favorite color?\n')
+
+# print(fav_color)

@@ -16,24 +16,6 @@ By the end of this, students should be able to:
 -   Compare and contrast basic language features and types from Python with basic language features and types from Javascript.
 -   Write and run simple script in Python.
 
-
-## Python REPL
-
-We'll be using repl.it to practice what we learn today. 
-
-[Click here](https://repl.it/languages/python3) to open up a new Python3 REPL.
-
-> repl.it is user-friendly but it's not ideal for longterm Python development. Thankfully, you can also run a Python REPL on your local machine by running the command `python3`. We have also included instructions for setting up a nicely featured REPL called IPython at the end of this lesson.
-
-
-&#x1F535; **Activity**
-```
-- If you haven't already, click the link above to open a new Python REPL on repl.it
-- In the black box to the right of your screen, try typing some standard programming stuff, like adding numbers together, saving a string to a variable, and whatever else you want
-- If you learn something, or something unexpected happens, share in a thread below
-- 10 min
-```  
-
 ### What is Python?
 Python is a high-level, general purpose programming language created by Guido van Rossum in 1991. It is the third most used programming language behind C and Java. Python can be used for data science, devops, or general purpose programming. In this class, we will be using it as a server-side "back-end" programming language.
 

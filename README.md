@@ -12,9 +12,18 @@ Hey, Polyglots! Ready for another programming language?
 
 By the end of this, students should be able to:
 
--   Use the Python REPL
 -   Compare and contrast basic language features and types from Python with basic language features and types from Javascript.
 -   Write and run simple script in Python.
+
+## Installing Python
+
+<details>
+	<summary></summary>
+	
+1.  `brew install python3`
+2.  Python doesn't ship with the most up to date version of package manager
+pip, so upgrade pip : `pip3 install --upgrade pip`
+</details>
 
 ### What is Python?
 Python is a high-level, general purpose programming language created by Guido van Rossum in 1991. It is the third most used programming language behind C and Java. Python can be used for data science, devops, or general purpose programming. In this class, we will be using it as a server-side "back-end" programming language.
@@ -510,23 +519,6 @@ for file in secret_files:
 - Define a Python _dictionary_ named **`where_are_my_things`** containing a few items; where  the `keys` are things you have, and the `value` is the location you keep those things.
 
 - Write a `for` loop that iterates over the items in the dictionary and prints each one as _My [thing] is kept [location]_.
-
----
-
-## IPython
-As noted above, we can always access a **local** Python REPL just by typing `python3` into our terminal app. The standard REPL is fine but it lacks a few quality-of-life imporvements that we as developers have probably gotten used to. That's where IPython comes in!
-
-IPython is a powerful interactive Python shell (or REPL) with a long list of features. A few of my favourites are syntax highlighting, tab completion, and an integrated debugger. You can see the [full list of features here](https://ipython.readthedocs.io/en/stable/).
-
-### Installation
-1.  `brew install python3`
-2.  Python doesn't ship with the most up to date version of package manager
-pip, so upgrade pip : `pip3 install --upgrade pip`
-3.  `pip3 install ipython`
-
-### Uasge
-You can use IPython in exactly the same way we used repl.it today. In fact, feel free to use it on the lab today and if you like it, look into how you can make it your default Python shell.
-
 
 ---
 

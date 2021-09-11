@@ -15,14 +15,21 @@ By the end of this, students should be able to:
 -   Compare and contrast basic language features and types from Python with basic language features and types from Javascript.
 -   Write and run simple script in Python.
 
-## Installing Python
+## Installing Python for Mac Users
 
 <details>
 	<summary></summary>
 	
-1.  `brew install python3`
-2.  Python doesn't ship with the most up to date version of package manager
-pip, so upgrade pip : `pip3 install --upgrade pip`
+1. Install Python 3 - the most up to date version of Python.
+```bash
+brew install python3
+```
+2.  Python doesn't ship with the most up to date version of package manager pip, so upgrade pip
+```bash
+pip3 install --upgrade pip
+```
+	
+<hr>
 </details>
 
 ### What is Python?

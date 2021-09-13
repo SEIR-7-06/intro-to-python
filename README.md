@@ -26,7 +26,7 @@ brew install python3
 ```
 2.  Python doesn't ship with the most up to date version of package manager pip, so upgrade pip
 ```bash
-pip3 install --upgrade pip
+pip3 install --user --upgrade pip
 ```
 	
 <hr>

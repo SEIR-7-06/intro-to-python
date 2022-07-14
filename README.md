@@ -44,6 +44,13 @@ Python has a couple attributes that make it unique:
 <details><summary>Some easter eggs</summary>
 <p>
 
+Open the python3 shell with
+```sh
+python3
+```
+
+and then type
+
 ```python
 import this
 ```
